@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import "tailwindcss";
+
+body {
+  font-family: "Inter", sans-serif;
+}
+h2 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -3%;
+  text-align: center;
+}
+h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -3%;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mt-28px {
+  margin-top: 28px;
+}
+.mtb-120 {
+  margin: 120px auto;
+}
+.mt-120 {
+  margin-top: 120px;
+}
+.mb-120 {
+  margin-bottom: 120px;
+}
+.ptb-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.pt-80 {
+  padding-top: 80px;
+}
+.plr-180 {
+  padding-left: 180px;
+  padding-right: 180px;
+}
+.container {
+  width: 1360px;
+  margin: auto;
+}
+.text-blk-forest {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2a2f32;
+}
+.text-blk-forest-light {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #2a2f32;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+.logo {
+  margin-right: 40px;
+}
+.Useful-links {
+  margin-right: 40px;
+}
+.logo {
+  width: 25%;
+}
+.Services {
+  width: fit-content;
+  margin-right: 60px;
+}
+.Useful-links {
+  width: 25%;
+}
+.Contact-info {
+  width: 25%;
+}
+@media screen and (max-width: 1199.99px) {
+  h2 {
+    font-size: 32px;
+    line-height: 1.25;
+  }
+  .mtb-120 {
+    margin: 40px auto;
+  }
+  .mt-120 {
+    margin-top: 40px;
+  }
+  .mb-120 {
+    margin-bottom: 40px;
+  }
+  .container {
+    width: 688px;
+  }
+  .ptb-80 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .plr-180 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .logo {
+    width: 100%;
+  }
+  .Services {
+    width: 50%;
+    margin-right: 0;
+  }
+  .Useful-links {
+    width: 50%;
+    margin-right: 0;
+  }
+  .Contact-info {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700.99px) {
+  .logo {
+    width: 100%;
+  }
+  .Services {
+    width: 100%;
+  }
+  .Useful-links {
+    width: 100%;
+  }
+  .Contact-info {
+    width: 100%;
+  }
+  .container {
+    width: 358px;
+  }
+}
