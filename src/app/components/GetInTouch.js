@@ -19,7 +19,7 @@ export default function GetInTouch() {
           <div className="mt-6">
             <a
               href="javascript:void(0)"
-              className="inline-flex items-center px-5 py-3 rounded-lg font-medium text-blue-600 bg-white hover:bg-blue-50 active:bg-blue-100 duration-150 shadow-md"
+              className="inline-flex items-center sm-text text-[16px]  px-[24px] py-[16px] md:py-[10px] rounded-[8px] font-medium text-blue-600 bg-white hover:bg-blue-50 active:bg-blue-100 duration-150 shadow-md"
             >
               Book a Professional Plumber
               <svg
@@ -39,15 +39,6 @@ export default function GetInTouch() {
             </a>
           </div>
         </div>
-
-        {/* Overlay Gradient */}
-        <div
-          className="absolute inset-0 w-full h-full rounded-2xl"
-          style={{
-            background:
-              "linear-gradient(268.24deg, rgba(59, 130, 246, 0.76) 50%, rgba(59, 130, 246, 0.545528) 80.61%, rgba(55, 48, 163, 0) 117.35%)",
-          }}
-        ></div>
       </div>
     </section>
   );

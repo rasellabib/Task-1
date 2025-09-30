@@ -145,4 +145,7 @@ h3 {
   .container {
     width: 358px;
   }
+  .sm-text{
+    font-size: 14px;
+  }
 }
